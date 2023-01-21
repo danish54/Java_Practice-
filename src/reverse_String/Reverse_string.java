@@ -2,7 +2,7 @@ package reverse_String;
 
 import java.util.Scanner;
 
-public class Reverse_each_Word {
+public class Reverse_string {
 
 	public static void main(String[] args) {
 
