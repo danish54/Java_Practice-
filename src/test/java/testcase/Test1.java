@@ -25,6 +25,7 @@ public class Test1 extends baseclass {
 	public void test1() {
 		String dir = System.getProperty("user.dir");
 		System.out.println(dir);
+		//danish
 	}
 	
 	@AfterMethod
