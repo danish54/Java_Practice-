@@ -3,9 +3,12 @@ package sharedutilities;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,12 +20,14 @@ public class baseclass {
 
 	public static WebDriver driver;
 
-	public void setup() {
+	public void chromesetup() {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(chromeOptions);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com/");
+		
 	}
 
 	public void captureSnapShot() throws IOException {
@@ -30,9 +35,9 @@ public class baseclass {
 
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
 
-		File ssFile = ((TakesScreenshot) (driver)).getScreenshotAs(org.openqa.selenium.OutputType.FILE);
-
-		FileUtils.copyFile(ssFile, new File(System.getProperty("user.dir") + "\\src\\test\\resources\\Screenshots\\" + sdf.format(d) + ".jpg"));
+		File sourceSFile = ((TakesScreenshot) (driver)).getScreenshotAs(OutputType.FILE);
+        File destfile = new File(System.getProperty("user.dir") + "\\src\\test\\resources\\Screenshots\\" + sdf.format(d) + ".jpg");
+		FileUtils.copyFile(sourceSFile,destfile );
 
 	}
 }
