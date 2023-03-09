@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="testcase.OrangeLogin"/>
+      <class name="testcase.SimpleTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

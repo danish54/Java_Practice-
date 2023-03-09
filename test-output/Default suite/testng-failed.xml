@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcase.Test1">
+      <class name="window_handel.WindowHand">
         <methods>
-          <include name="takeSS"/>
+          <include name="GetWindowHand"/>
         </methods>
-      </class> <!-- testcase.Test1 -->
+      </class> <!-- window_handel.WindowHand -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
