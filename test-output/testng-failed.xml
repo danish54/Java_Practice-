@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="window_handel.WindowHand">
+      <class name="keystroke.Keyboard_Keys">
         <methods>
-          <include name="GetWindowHand"/>
+          <include name="Keyss"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- window_handel.WindowHand -->
+      </class> <!-- keystroke.Keyboard_Keys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

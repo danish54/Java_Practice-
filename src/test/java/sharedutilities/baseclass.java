@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -24,10 +22,11 @@ public class baseclass {
 	public static WebDriver driver;
 	public static WebDriverWait wait;
 
-	public void chromesetup() {
-		ChromeOptions chromeOptions = new ChromeOptions();
+	public static void chromesetup() {
+		ChromeOptions Options = new ChromeOptions();
+		Options.addArguments("--remote-allow-origins=*");
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver(chromeOptions);
+		driver = new ChromeDriver(Options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().deleteAllCookies();
