@@ -10,6 +10,7 @@ public class Prime_Number_bool {
 		
 		System.out.println("Enter a Number here :");
 		Boolean Prime = IsPrime(sc.nextInt());
+		sc.close();
 		
 		if(Prime == true) {
 			System.out.println("Its a Prime Number");

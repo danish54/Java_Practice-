@@ -18,7 +18,7 @@ public class Print_Natural_Num {
 
 	public static void main(String[] args) {
 
-		PrintSum(1, 5, 0);
+		PrintSum(1, 4, 0);
 		System.out.println("End");
 
 	}
