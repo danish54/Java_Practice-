@@ -9,12 +9,12 @@ public class Pyramid_Star_Pattern {
 		// loop for outer row
 		for (i = 0; i <= row; i++) {
 
-			// loop for star
+			// loop for space
 			for (j = 1; j <= row - i; j++) {
 
 				System.out.print(" ");
 			}
-
+			// loop for stars
 			for (j = 0; j <= 2 * i; j++) {
 				System.out.print("*");
 			}

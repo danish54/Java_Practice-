@@ -9,7 +9,7 @@ public class Count_word_in_string {
 		for (int i = 0; i < str.length(); i++) {
 
 			if (str.charAt(i) == ' ' || i == str.length() - 1) {
-				++count;
+				count++;
 			}
 		}
 

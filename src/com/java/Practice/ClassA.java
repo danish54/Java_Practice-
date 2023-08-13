@@ -1,8 +1,6 @@
 package com.java.Practice;
 
-public class ClassA {
+interface ClassA {
 
-	public void car() {
-		System.out.println("car_A");
-	}
+	public void carA();
 }
