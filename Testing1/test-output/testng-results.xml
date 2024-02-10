@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-04T12:24:56 IST" name="Default suite" finished-at="2024-02-04T12:24:56 IST" duration-ms="44">
+  <suite started-at="2024-02-10T16:44:37 IST" name="Default suite" finished-at="2024-02-10T16:44:37 IST" duration-ms="55">
     <groups>
     </groups>
-    <test started-at="2024-02-04T12:24:56 IST" name="Default test" finished-at="2024-02-04T12:24:56 IST" duration-ms="44">
+    <test started-at="2024-02-10T16:44:37 IST" name="Default test" finished-at="2024-02-10T16:44:37 IST" duration-ms="55">
       <class name="string.String_declaration">
-        <test-method signature="test5()[pri:0, instance:string.String_declaration@618425b5]" started-at="2024-02-04T12:24:56 IST" name="test5" finished-at="2024-02-04T12:24:56 IST" duration-ms="7" status="PASS">
+        <test-method signature="reversestring2()[pri:0, instance:string.String_declaration@58695725]" started-at="2024-02-10T16:44:37 IST" name="reversestring2" finished-at="2024-02-10T16:44:37 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5 -->
+        </test-method> <!-- reversestring2 -->
       </class> <!-- string.String_declaration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
