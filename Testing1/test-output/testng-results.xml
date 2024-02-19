@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-10T16:44:37 IST" name="Default suite" finished-at="2024-02-10T16:44:37 IST" duration-ms="55">
+  <suite started-at="2024-02-20T00:02:25 IST" name="Default suite" finished-at="2024-02-20T00:02:25 IST" duration-ms="51">
     <groups>
     </groups>
-    <test started-at="2024-02-10T16:44:37 IST" name="Default test" finished-at="2024-02-10T16:44:37 IST" duration-ms="55">
-      <class name="string.String_declaration">
-        <test-method signature="reversestring2()[pri:0, instance:string.String_declaration@58695725]" started-at="2024-02-10T16:44:37 IST" name="reversestring2" finished-at="2024-02-10T16:44:37 IST" duration-ms="9" status="PASS">
+    <test started-at="2024-02-20T00:02:25 IST" name="Default test" finished-at="2024-02-20T00:02:25 IST" duration-ms="51">
+      <class name="feb2023.PrimeNumber">
+        <test-method signature="IsPrime()[pri:0, instance:feb2023.PrimeNumber@71a8adcf]" started-at="2024-02-20T00:02:25 IST" name="IsPrime" finished-at="2024-02-20T00:02:25 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reversestring2 -->
-      </class> <!-- string.String_declaration -->
+        </test-method> <!-- IsPrime -->
+      </class> <!-- feb2023.PrimeNumber -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -57,12 +57,29 @@ public class String_declaration {
 	}
 
 	@Test
+	public void ArrayToString() {
+		char[] chararry = { 'a', 'b', 'c', 'd' };
+
+		String str = String.valueOf(chararry);
+		String st2 = new String(chararry);
+		StringBuffer stb = new StringBuffer(st2);
+		stb.reverse();
+
+		System.out.println("Char 1 " + str);
+		System.out.println("Char 2 " + st2);
+		System.out.println("Char 3 " + stb);
+
+		String stj = String.join(stb, st2, str);
+		System.out.println(stj);
+	}
+
+	@Test
 	public void test5() {
 		String[] name = new String[3];
 		name[0] = "name";
 		name[1] = "is";
 		name[2] = "danish";
-		String st = String.join("name", name);
+		String st = String.join("*", name);
 		System.out.println(st);
 
 	}
@@ -88,8 +105,28 @@ public class String_declaration {
 	@Test
 	public void reversestring2() {
 		String str = "My Name is Danish";
-		String revers = Arrays.stream(str.split(" ")).map(word -> new StringBuilder(word).reverse()).collect(Collectors.joining(" "));
+		String revers = Arrays.stream(str.split(" ")).map(word -> new StringBuilder(word).reverse())
+				.collect(Collectors.joining(" "));
 		System.out.println(revers);
+
+	}
+
+	@Test
+	public void EvenOdd() {
+
+		int[] arr = { 2, 6, 7, 10 };
+
+		for (int i = 0; i < arr.length; i++) {
+
+			if (arr[i] % 2 == 0) {
+				System.out.println(arr[i] + " is Even");
+
+			} else {
+
+				System.out.println((arr[i] + " is Odd"));
+			}
+
+		}
 
 	}
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="string.String_declaration">
+      <class name="feb2023.LaunchBrowser">
         <methods>
-          <include name="test5"/>
+          <include name="launchbrowser"/>
         </methods>
-      </class> <!-- string.String_declaration -->
+      </class> <!-- feb2023.LaunchBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
