@@ -129,4 +129,12 @@ public class String_declaration {
 		}
 
 	}
+	
+	@Test
+	public static void Isprime(){
+		int r=1;
+		
+	}
+	
+	
 }

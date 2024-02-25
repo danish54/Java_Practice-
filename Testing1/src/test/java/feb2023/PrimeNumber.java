@@ -18,7 +18,7 @@ public class PrimeNumber {
 
 	@Test
 	public void IsPrime() {
-		boolean bol = IsPrimem(10);
+		boolean bol = IsPrimem(7);
 		if (bol==true) {
 			System.out.println("Its a Prime number");
 		}
