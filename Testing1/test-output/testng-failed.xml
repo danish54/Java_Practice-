@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feb2023.UploadFile">
+      <class name="feb2023.Iframe">
         <methods>
-          <include name="Login"/>
+          <include name="scroll"/>
         </methods>
-      </class> <!-- feb2023.UploadFile -->
+      </class> <!-- feb2023.Iframe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
