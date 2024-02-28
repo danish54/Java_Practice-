@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feb2023.Iframe">
+      <class name="feb2023.Hash_Map">
         <methods>
-          <include name="scroll"/>
+          <include name="Bikes"/>
         </methods>
-      </class> <!-- feb2023.Iframe -->
+      </class> <!-- feb2023.Hash_Map -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
