@@ -5,7 +5,7 @@
     <classes>
       <class name="feb2023.Hash_Map">
         <methods>
-          <include name="Bikes"/>
+          <include name="has"/>
         </methods>
       </class> <!-- feb2023.Hash_Map -->
     </classes>

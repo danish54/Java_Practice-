@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T22:07:43 IST" name="Default suite" finished-at="2024-02-28T22:07:43 IST" duration-ms="62">
+  <suite started-at="2024-02-29T23:33:00 IST" name="Default suite" finished-at="2024-02-29T23:33:00 IST" duration-ms="72">
     <groups>
     </groups>
-    <test started-at="2024-02-28T22:07:43 IST" name="Default test" finished-at="2024-02-28T22:07:43 IST" duration-ms="62">
+    <test started-at="2024-02-29T23:33:00 IST" name="Default test" finished-at="2024-02-29T23:33:00 IST" duration-ms="72">
       <class name="feb2023.Hash_Map">
-        <test-method signature="Bikes()[pri:0, instance:feb2023.Hash_Map@4b0d79fc]" started-at="2024-02-28T22:07:43 IST" name="Bikes" finished-at="2024-02-28T22:07:43 IST" duration-ms="8" status="PASS">
+        <test-method signature="iuu()[pri:0, instance:feb2023.Hash_Map@d9345cd]" started-at="2024-02-29T23:33:00 IST" name="iuu" finished-at="2024-02-29T23:33:00 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Bikes -->
+        </test-method> <!-- iuu -->
       </class> <!-- feb2023.Hash_Map -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
