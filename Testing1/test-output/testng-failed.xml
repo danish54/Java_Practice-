@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feb2023.Hash_Map">
+      <class name="feb2023.RandoMarray">
         <methods>
-          <include name="has"/>
+          <include name="printrandomarray"/>
         </methods>
-      </class> <!-- feb2023.Hash_Map -->
+      </class> <!-- feb2023.RandoMarray -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
