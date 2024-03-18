@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="feb2023.RandoMarray">
+      <class name="keys.Keyborad_Keys">
         <methods>
-          <include name="printrandomarray"/>
+          <include name="KeyboardShot"/>
         </methods>
-      </class> <!-- feb2023.RandoMarray -->
+      </class> <!-- keys.Keyborad_Keys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

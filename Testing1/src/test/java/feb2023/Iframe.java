@@ -57,8 +57,11 @@ public class Iframe {
 		login();
 		
 		WebElement frame = driver.findElement(By.xpath("//iframe[@id=\"courses-iframe\"]"));
+		
+		//js scroll
 		JavascriptExecutor js= (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", frame);
+		
 		Thread.sleep(2000);
 		driver.switchTo().frame(frame);
 		Thread.sleep(2000);
